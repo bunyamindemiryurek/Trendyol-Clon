@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.header-top ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+  font-family: source_sans_proregular;
+}
+
+.header-top ul li a:hover {
+  color: black;
+}
+
+.dropbtn {
+  background-color: white;
+  padding: 10px;
+  /* font-size: 16px; */
+  border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-size: 12px;
+}
+
+.uyeBilgi:hover {
+  color: orange;
+}
+
+.arama {
+  transform: translateX(-35px);
+}
+
+
+.hesapDrop:hover {
+  color: orange;
+}
+
+
+.owl-carousel {
+  /* border:2px solid; */
+  height: auto;
+
+}
+
+.nike {
+  /* height: 115px;
+  width:120px; */
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid; */
+  padding: 3px;
+
+}
+
+.owl-carousel a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.nike a img {
+  border-radius: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.nike a img:hover {
+  border-radius: 100%;
+  border: 1px solid orange;
+}
+
+.nike a span:hover {
+  color: orange;
+}
+
+/* .image-container{
+  width: auto;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+} */
+.kıs-item {
+  text-decoration: none;
+
+}
+
+.campaign-summary {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-family: source_sans_prosemibold, serif;
+  height: 38px;
+  padding: 0 17px;
+
+}
+
+.campaign-summary:hover {
+  background-color: orange;
+  transition: background 300ms ease;
+}
+
+/* .image-container img{
+  transition: transform 1s ease;
+  position: relative;
+} */
+
+
+.widget-header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.widget-header span {
+  font-size: 22px;
+  color: #333;
+  font-family: 'source_sans_prosemibold', sans-serif;
+  background: transparent;
+}
+
+.widget-header-navigation a {
+  font-family: 'source_sans_prosemibold', sans-serif;
+  color: #333;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.widget-container {
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #fffaf6;
+  border: 1px solid #f2e5da;
+
+}
+
+.widget-product {
+  background-color: white;
+
+}
+
+
+.owl-carousel-1 a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.porduct-brand-description {
+  display: flex;
+
+}
+
+.name {
+
+  white-space: normal;
+}
+
+.prices {
+  color: orange;
+}
+
+.owl-items {
+  display: flex;
+}
+
+.seo-cont-t {
+  font-size: 13px;
+}
+
+.magaza-list li {
+  list-style: none;
+}
+
+.magaza-list a {
+  text-decoration: none;
+  color: black;
+  font-family: source_sans_proregular;
+}
+
+.magaza-list li a:hover {
+  text-decoration: underline;
+}
+
+.alt2 {
+  background-color: black;
+  color: white;
+}
+
+.alt2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.alt2 a:hover {
+  text-decoration: underline;
+}
+
+.appler a {
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 6px;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.appler a:hover {
+  text-decoration: none;
+}
+
+.trgo {
+  width: 50px;
+  height: 50px;
+
+}
+
+.bad-info {
+  background-color: grey;
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.bad-info ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.kategori a {
+
+  text-decoration: none;
+  color: black;
+}
+
+.ulflex {
+  display: flex;
+  font-size: 14px;
+
+}
+
+.ulflex li a:hover {
+  color: orange;
+}
+
+.ulflex li a {
+  font-weight: bold;
+}
+
+
+.urunTur {
+  text-decoration: none;
+  color: black
+}
+
+.bi-chevron-right {
+  color: orange;
+  margin: 0 10px;
+}
+
+.product-container {
+  padding: 20px;
+  border: solid 1px #e6e6e6;
+  border-radius: 6px;
+  box-sizing: border-box;
+
+}
+
+.resim {
+  width: 100%;
+  height: 100%;
+  cursor:move;
+}
+
+.pastel {
+  text-decoration: none;
+  color: black;
+}
+
+.pastel:hover {
+  text-decoration: underline;
+}
+
+.fua {
+  text-decoration: none;
+  color: #4d8ee1;
+}
+
+.cam {
+  height: 15px;
+  width: 15px;
+}
+
+.review {
+  text-decoration: none;
+  color: grey;
+}
+
+.review:hover {
+  text-decoration: underline;
+  color: #f27a1a;
+}
+
+.fiyat {
+  color: #f27a1a;
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+.koleksiyon {
+  text-align: end;
+}
+
+.bi-bookmark-fill {
+  color: #f27a1a;
+}
+
+.kolekle:hover {
+  color: #f27a1a;
+  cursor: pointer;
+}
+
+.satınAl {
+  display: flex;
+  align-items: center;
+}
+
+.satınAlButon {
+
+  text-align: center;
+  border-radius: 6px;
+
+  background-color: #f27a1a;
+  padding:15px 0 15px 0;
+  width: 85%;
+  cursor:pointer;
+}
+
+.satınAlButon a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  
+}
+.bi-heart{
+ font-size: 22px;
+}
+.fv{
+  border:solid 1px #e6e6e6;
+  margin:0 0 0 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.bi-truck{
+  color:green;
+}
+.list{
+  list-style-type: none;
+  padding:0 0 0 0;
+}
+
+.urunDetay{
+  border:1px solid #e6e6e6;
+  text-align: center;
+  align-items: center;
+  cursor:pointer;
+  border-radius: 6px;
+  padding: 10px;
+}
+.urunDetay a{
+  text-decoration: none;
+  color:black;
+  
+  font-size: 18px;
+}
+.urunDetay  a:hover{
+  color:#f27a1a;
+ 
+}
+.urunDetay:hover{
+  border:#f27a1a 1px solid;
+}
+
+.fatura{
+  background-color:#f5f8ff;
+  border:#e6e6e6 solid 1px;
+  border-radius: 6px;
+}
+
+.tikla{
+  cursor:pointer;
+  color:#4d8ee1;
+}
+.profil{
+  border:1px solid #e6e6e6; 
+  background-color: #FFFEF8;
+  border-radius:6px;
+}
+.takipci{
+  color:grey;
+}
+.magaza:hover{
+  color:#f27a1a;
+  cursor:pointer;
+  transition: .30s;
+}
+.yorumAlıntı{
+  border:1px solid #e6e6e6;
+  margin:15px 0 0 0 ;
+  border-radius:6px;
+}
+.tarihYorum{
+  color:grey;
+}
+.dfy:hover{
+  color:#f27a1a;
+  cursor:progress;
+  transition: .30s;
+}
+.asideYorum{
+  border-radius: 6px;
+} 
+.asideYorum a{
+  text-decoration: none;
+  color:black;
+}
+.asideYorum a:hover{
+  color:#f27a1a;
+  transition:.30s;
+}
