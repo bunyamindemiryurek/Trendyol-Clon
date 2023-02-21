@@ -1,2 +1,3 @@
 # Trendyol-Clon  
-## owl carousel yapısını ilk bu projede kullandım.
+## İlk E-Ticaret Front End web projem.  
+### Owl carousel yapısını ilk bu projede kullandım.
